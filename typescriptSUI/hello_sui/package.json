@@ -1,0 +1,23 @@
+{
+  "name": "hello_sui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc index.ts | node index.js",
+    "deploy": "tsx ./deploy.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@mysten/sui": "^1.7.0",
+    "@types/node": "^22.5.1",
+    "tsx": "^4.19.0"
+  },
+  "dependencies": {
+    "@mysten/deepbook-v3": "^0.4.2",
+    "dotenv": "^16.4.5"
+  }
+}
